@@ -19,7 +19,6 @@ import static com.aditya.flickwiz.R.id.director;
 import static com.aditya.flickwiz.R.id.genre;
 import static com.aditya.flickwiz.R.id.poster;
 import static com.aditya.flickwiz.R.id.wurl;
-import static com.aditya.flickwiz.R.id.yurl;
 
 /**
  * Created by Aditya on 09/04/17.

@@ -22,7 +22,7 @@
     tools:context="com.aditya.flickwiz.MainActivity">
 
     <TextView
-        android:id="@+id/movie"
+        android:id="@+id/moviepage"
         style="@style/CategoryStyle"
         android:background="@color/category_numbers"
         android:text="Browse Movies"

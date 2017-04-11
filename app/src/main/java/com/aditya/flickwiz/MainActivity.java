@@ -24,7 +24,8 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
 
-import static com.aditya.flickwiz.R.id.movie;
+import static com.aditya.flickwiz.R.id.moviepage;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -35,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         // Set the content of the activity to use the activity_main.xml layout file
         setContentView(R.layout.activity_main);
 
-        TextView movies = (TextView) findViewById(movie);
+        TextView movies = (TextView) findViewById(moviepage);
 
         // Set a click listener on that View
         movies.setOnClickListener(new OnClickListener() {

@@ -129,7 +129,7 @@ public final class PQueryUtils {
                 Log.e(LOG_TAG, "Error Response code : " + urlConnection.getResponseCode());
             }
         } catch (IOException e) {
-            Log.e(LOG_TAG, "Problem retrieving the earthquake json response", e);
+            Log.e(LOG_TAG, "Problem retrieving the json response", e);
         } finally {
             if(urlConnection != null) {
                 urlConnection.disconnect();
@@ -159,7 +159,6 @@ public final class PQueryUtils {
     public static List<Details> fetchEarthQuakeData(String requestURL) {
         URL url = createURL(requestURL);
 
-        Log.i(LOG_TAG, "This is fetchEarthquakeData.....");
 
         String jsonResponse = null;
         try {
