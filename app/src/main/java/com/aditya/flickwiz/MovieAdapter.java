@@ -54,21 +54,21 @@ public class MovieAdapter extends ArrayAdapter<Movie> {
         TextView nameTextView = (TextView) listItemView.findViewById(R.id.title);
         nameTextView.setText(currentMovie.getTitle());
 
-        TextView genreTextView = (TextView) listItemView.findViewById(R.id.synopsis);
+        TextView genreTextView = (TextView) listItemView.findViewById(R.id.genre);
         // Get the default translation from the currentMovie object and set this text on
         // the default TextView.
         genreTextView.setText(currentMovie.getGenre());
 
-        TextView description_view = (TextView) listItemView.findViewById(R.id.description);
+        //TextView description_view = (TextView) listItemView.findViewById(R.id.description);
        //description_view.setText(currentMovie.getSynopsis());
 
-        ImageView ratingimageview = (ImageView)listItemView.findViewById(R.id.ratingimage);
+        //ImageView ratingimageview = (ImageView)listItemView.findViewById(R.id.ratingimage);
 
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
 
-            imageView.setVisibility(View.VISIBLE);
+            //imageView.setVisibility(View.VISIBLE);
 
-        View textContainer = listItemView.findViewById(R.id.text_container);
+        //View textContainer = listItemView.findViewById(R.id.text_container);
 
 
 

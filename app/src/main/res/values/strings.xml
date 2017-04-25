@@ -27,4 +27,13 @@
 
     <!-- Category name for the vocabulary movies for family members [CHAR LIMIT=20] -->
     <string name="category_family">Family Members</string>
+
+    <string name="transition_image">image</string>
+    <string name="transition_quote">quote</string>
+    <string name="transition_attribution">attribution</string>
+
+        <string name="player_error">Error initializing YouTube player: %s</string>
+        <string name="seek_to">Jump To</string>
+        <string name="seek_to_hint">Seconds</string>
+
 </resources>

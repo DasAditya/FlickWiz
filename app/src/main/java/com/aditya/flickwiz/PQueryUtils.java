@@ -77,7 +77,7 @@ public final class PQueryUtils {
 
                       String rating = object.getString("imdbRating");
                       Random random = new Random();
-                      details.add(new Details(released, runtime, genre, director, writer, actors, plot, poster, rating, Integer.toString(Math.abs(random.nextInt(60) % 100)+40) + "%"));
+                      details.add(new Details(released, runtime, genre, director, actors, writer, plot, poster, rating, Integer.toString(Math.abs(random.nextInt(60) % 100)+40) + "%"));
 
             //}
 

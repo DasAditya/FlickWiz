@@ -43,7 +43,7 @@ public class Fetch extends AppCompatActivity implements LoaderManager.LoaderCall
 
         uribuilder.appendQueryParameter("t", movie_title);
 
-        Toast.makeText(Fetch.this, uribuilder.toString(), Toast.LENGTH_LONG).show();
+        //Toast.makeText(Fetch.this, uribuilder.toString(), Toast.LENGTH_LONG).show();
         return new PMLoader(this, uribuilder.toString());
 
     }
@@ -54,8 +54,8 @@ public class Fetch extends AppCompatActivity implements LoaderManager.LoaderCall
     @Override
     public void onLoadFinished(Loader<List<Details>> loader, List<Details> earthquakes) {
 
-       View loading_bar = findViewById(R.id.loading_spinner);
-        loading_bar.setVisibility(GONE);
+      // View loading_bar = findViewById(R.id.loading_spinner);
+        //loading_bar.setVisibility(GONE);
 
         Log.i(LOG_TAG, "This is onLoadFinished.....");
         if(earthquakes != null && !earthquakes.isEmpty()) {
@@ -96,7 +96,7 @@ public class Fetch extends AppCompatActivity implements LoaderManager.LoaderCall
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.pmovie);
+        //setContentView(R.layout.pmovie);
 
 
         ConnectivityManager connMgr = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);

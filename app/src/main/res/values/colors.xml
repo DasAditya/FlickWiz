@@ -15,6 +15,19 @@
 -->
 <resources>
     <!-- Primary color of the app (shown in the app bar) -->
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+
+    <!-- Background color for app -->
+
+    <!-- Background color for the numbers category -->
+
+    <!-- Background color for the family members category -->
+
+    <!-- Background color for the colors category -->
+
+    <!-- Background color for the phrases category -->
+
     <color name="primary_color">#4A312A</color>
 
     <!-- Primary dark color of the app (shown in the status bar) -->
@@ -34,4 +47,13 @@
 
     <!-- Background color for the phrases category -->
     <color name="category_phrases">#16AFCA</color>
+
+    <color name="colorPrimary">#606060</color>
+    <color name="colorPrimaryDark">#363636</color>
+    <color name="colorAccent">#fff</color>
+    <color name="favPrimary">#507584</color>
+    <color name="favPrimaryDark">#495b66</color>
+    <color name="movie">#01579B</color>
+    <color name="movieDark">#004073</color>
+
 </resources>
